@@ -6,7 +6,7 @@ namespace Aap.EmailValidator.Validators
     /// </summary>
     public interface IEmailRule
     {
-        int Configuration { get; set; }
+        int ConfigurationId { get; set; }
         /// <summary>
         /// Get or Set the characters that are disallowed in a username. 
         /// </summary>
